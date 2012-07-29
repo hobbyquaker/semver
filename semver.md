@@ -73,7 +73,7 @@ incompatible changes are introduced to the public API. It MAY include minor
 and patch level changes. Patch and minor version MUST be reset to 0 when major
 version is incremented.
 
-1. A pre-release version MAY be denoted by appending a dash and a series of
+1. A pre-release version MAY be denoted by appending a hyphen and a series of
 dot separated identifiers immediately following the patch version. Identifiers
 MUST be comprised of only ASCII alphanumerics and dash [0-9A-Za-z-].
 Pre-release versions satisfy but have a lower precedence than the associated
@@ -200,15 +200,24 @@ are important to your users, use the version number to inform them.
 
 ### How should I handle deprecating functionality?
 
-Deprecating existing functionality is a normal part of software development and is often required to make forward progress. When you deprecate part of your public API, you should do two things: (1) update your documentation to let users know about the change, (2) issue a new minor release with the deprecation in place. Before you completely remove the functionality in a new major release there should be at least one minor release that contains the deprecation so that users can smoothly transition to the new API.
+Deprecating existing functionality is a normal part of software development and
+is often required to make forward progress. When you deprecate part of your
+public API, you should do two things: (1) update your documentation to let
+users know about the change, (2) issue a new minor release with the deprecation
+in place. Before you completely remove the functionality in a new major release
+there should be at least one minor release that contains the deprecation so
+that users can smoothly transition to the new API.
 
 
 About
 -----
 
-The Semantic Versioning specification is authored by [Tom Preston-Werner](http://tom.preston-werner.com), inventor of Gravatars and cofounder of GitHub.
+The Semantic Versioning specification is authored by [Tom
+Preston-Werner](http://tom.preston-werner.com), inventor of Gravatars and
+cofounder of GitHub.
 
-If you'd like to leave feedback, please [open an issue on GitHub](https://github.com/mojombo/semver/issues).
+If you'd like to leave feedback, please [open an issue on
+GitHub](https://github.com/mojombo/semver/issues).
 
 
 License
